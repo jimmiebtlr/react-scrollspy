@@ -1,0 +1,22 @@
+{
+  "name": "react-scrollspy",
+  "version": "0.0.1",
+  "keywords": [
+    "react",
+    "scrollspy"
+  ],
+  "description": "Scrollspy clone for react",
+  "main": "scrollspy.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jimmiebtlr/react-scrollspy"
+  },
+  "author": "Jimmie Butler <jimmiebtlr@gmail.com> (http://jimmiebtlr.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jimmiebtlr/react-scrollspy/issues"
+  }
+}
