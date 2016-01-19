@@ -1,3 +1,9 @@
+# Why
+
+Existing solutions pollute the global space.
+
+# Use
+
 Scrollspy clone for react
 
  
@@ -29,3 +35,8 @@ Scrollspy clone for react
         return this.props.active
       }
     }
+
+
+# Design
+
+Scrolling must happen in the scrollspy component.  This allows us to keep all login in the scrollspy component, and keep things clean.
