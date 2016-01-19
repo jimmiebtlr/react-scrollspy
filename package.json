@@ -18,5 +18,8 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jimmiebtlr/react-scrollspy/issues"
+  },
+  "dependencies": {
+    "react": "~0.14.6"
   }
 }
