@@ -1,6 +1,6 @@
 {
   "name": "react-scrollspy-component",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "keywords": [
     "react",
     "scrollspy"
@@ -9,7 +9,7 @@
   "main": "scrollspy.jsx",
   "scripts": {
     "lint": "eslint ./lib",
-    "lintfix": "eslint ./lib --fix",   
+    "lintfix": "eslint ./lib --fix",
     "test": "npm run lint && npm run testonly"
   },
   "repository": {
@@ -21,7 +21,6 @@
   "bugs": {
     "url": "https://github.com/jimmiebtlr/react-scrollspy/issues"
   },
-
   "devDependencies": {
     "eslint": "1.7.x",
     "babel-eslint": "4.x.x",
