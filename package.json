@@ -6,7 +6,7 @@
     "scrollspy"
   ],
   "description": "Scrollspy clone for react",
-  "main": "scrollspy.jsx",
+  "main": "index.js",
   "scripts": {
     "prepublish": ". ./scripts/prepublish.sh",
     "lint": "eslint ./lib",
@@ -15,12 +15,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jimmiebtlr/react-scrollspy"
+    "url": "https://github.com/jimmiebtlr/react-scrollspy-component"
   },
   "author": "Jimmie Butler <jimmiebtlr@gmail.com> (http://jimmiebtlr.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jimmiebtlr/react-scrollspy/issues"
+    "url": "https://github.com/jimmiebtlr/react-scrollspy-component/issues"
   },
   "devDependencies": {
     "eslint": "1.7.x",
