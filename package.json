@@ -8,7 +8,9 @@
   "description": "Scrollspy clone for react",
   "main": "scrollspy.jsx",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint ./lib",
+    "lintfix": "eslint ./lib --fix",   
+    "test": "npm run lint && npm run testonly"
   },
   "repository": {
     "type": "git",
@@ -19,7 +21,27 @@
   "bugs": {
     "url": "https://github.com/jimmiebtlr/react-scrollspy/issues"
   },
+
+  "devDependencies": {
+    "eslint": "1.7.x",
+    "babel-eslint": "4.x.x",
+    "eslint-plugin-babel": "2.x.x",
+    "babel-cli": "6.x.x",
+    "babel-core": "6.x.x",
+    "babel-polyfill": "6.x.x",
+    "babel-preset-es2015": "6.x.x",
+    "babel-preset-stage-2": "6.x.x",
+    "babel-plugin-transform-runtime": "6.x.x",
+    "babel-preset-react": "6.x.x",
+    "babel-plugin-react-require": "2.x.x",
+    "react": "0.14.x",
+    "react-dom": "0.14.x",
+    "mock-require": "1.x.x",
+    "sinon": "1.17.x",
+    "eslint-plugin-react": "3.x.x"
+  },
   "dependencies": {
-    "react": "~0.14.6"
+    "react": "~0.14.6",
+    "babel-runtime": "6.x.x"
   }
 }

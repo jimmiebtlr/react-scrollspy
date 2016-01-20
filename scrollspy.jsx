@@ -1,4 +1,4 @@
-export class ScrollSpy extends React.Component {
+export default class ScrollSpy extends React.Component {
   constructor(props) {
     super(props);
     this.state = { data: new Immutable.Map({}) };
