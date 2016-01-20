@@ -42,6 +42,7 @@
   },
   "dependencies": {
     "react": "~0.14.6",
-    "babel-runtime": "6.x.x"
+    "babel-runtime": "6.x.x",
+    "react-dom": "~0.14.6"
   }
 }
